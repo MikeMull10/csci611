@@ -1,0 +1,6 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+nav ul { list-style: none; padding: 0; display: flex; background: #333; padding: 10px; }
+nav ul li { margin-right: 15px; }
+nav ul li a { text-decoration: none; color: white; padding: 8px 12px; display: block; }
+nav ul li a:hover { background: #555; }
+footer { text-align: center; padding: 10px; background: #f1f1f1; } 
