@@ -1,11 +1,16 @@
 <?php
 session_start();
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 // Database connection settings
-$host = 'localhost';
-$dbname = 'blm';
-$username = 'root';  // default username for MySQL on WAMP
-$password = '';      // default password for MySQL on WAMP
+$host = $_ENV['DB_HOST'];
+$dbname = $_ENV['DB_NAME'];
+$username = $_ENV['DB_USER'];
+$password = $_ENV['DB_PASS'];
 
 // Create a PDO instance for database connection
 try {
