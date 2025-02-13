@@ -1,0 +1,151 @@
+/* Viewing Training Page Styles */
+.training-page {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Subtitle for Assigned Courses */
+h2 {
+    font-size: 24px;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Course List */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table th {
+    background-color: #ecf0f1;
+    color: #34495e;
+}
+
+table tr:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* For When No Video is Assigned */
+.no-video {
+    color: #e74c3c;
+    font-style: italic;
+}
+
+/* Viewing Single Training Material */
+.training-material-detail {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.training-material-detail h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.training-material-detail p {
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.training-material-detail a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.training-material-detail a:hover {
+    text-decoration: underline;
+}
+
+/* Form for Assigning New Course */
+form {
+    margin-top: 20px;
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+form select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+form button {
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+}
+
+form button:active {
+    background-color: #388e3c;
+    transform: translateY(2px);
+}
+
+.video-embed {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.video-embed iframe,
+.video-embed video {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+}
+
+.training-material-detail p {
+    font-size: 18px;
+    color: #333;
+}
