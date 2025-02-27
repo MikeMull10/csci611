@@ -14,7 +14,7 @@
         <?php endif; ?>
         <?php if ($user['role'] == 'client'): ?>
             <!-- Only show the Employees link if the user is a client -->
-        <li><a href="buy_permit.php">Permits</a></li>
+            <li><a href="buy_permit.php">Permits</a></li>
         <?php endif; ?>
         <li class="login-button"><a href="logout.php">Logout</a></li>
     </ul>
